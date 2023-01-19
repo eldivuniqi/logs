@@ -1,0 +1,38 @@
+.form-control { 
+    border-radius: 0;
+    border: none;
+    padding-left: 2px;
+}
+
+.form { 
+    background-color: black;
+}
+
+.btn { 
+    size: 10px;
+    padding-left: 0px;
+    background-color: #2199e8;
+    border: none;
+    border-radius: 0;
+}
+
+label { 
+    font-weight: bold;
+}
+
+.table { 
+    background-color: #eae9ee;
+    box-shadow: 1px 1px 3px 4px #ccc;
+}
+
+.div { 
+    background-color: white;
+}
+
+.alert { 
+   margin-left: 55px;
+}
+
+.form-control { 
+    background-color: white;
+}

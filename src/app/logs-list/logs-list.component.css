@@ -1,0 +1,47 @@
+.table { 
+    margin-bottom: 0;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+.bi { 
+    display: block;
+    margin: auto;
+}
+
+.orderBy { 
+    background-color: white;
+}
+
+.table-dark { 
+    cursor: pointer;
+}
+
+.id:hover { 
+    color: red;
+}
+
+.p { 
+    margin-top: 0;
+    margin-left: 100px;
+    padding-top: 0;
+}
+
+.form-control { 
+    border-radius: 0;
+}
+
+.row { 
+    margin-top: 10px;
+}
+
+.col-md-auto { 
+    margin-right: 0px;
+    margin-left: 5px;
+    margin-top: 6px;
+    padding-right: 0px;
+}
+
+

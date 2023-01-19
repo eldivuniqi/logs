@@ -1,0 +1,6 @@
+<div class="row">
+<div class="col-sm-5"><app-logs-form [log]="log" [deleteMessage]="deleteMessage" (onEdited)="loadLogs()"  (newItem)="saveItem($event)"></app-logs-form></div>
+<div class="col-sm-6"><app-logs-list (onDelete)="deleteLog($event)" (onEdit)="editLog($event)"  [logListInput]="logsData"></app-logs-list></div>
+</div>
+
+

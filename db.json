@@ -1,0 +1,52 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "emriKlinikes": "Testing",
+      "kerkesa": "Testing ",
+      "date": "2022-12-20"
+    },
+    {
+      "id": 2,
+      "emriKlinikes": "Halo",
+      "kerkesa": "Halo",
+      "date": "2022-12-17"
+    },
+    {
+      "id": 3,
+      "emriKlinikes": "test",
+      "kerkesa": "test",
+      "date": "2022-12-14"
+    },
+    {
+      "id": 4,
+      "emriKlinikes": "americanbrain",
+      "kerkesa": "jeni",
+      "date": "2022-12-07"
+    },
+    {
+      "id": 5,
+      "emriKlinikes": "amd",
+      "kerkesa": "amdamd",
+      "date": "2022-12-01"
+    },
+    {
+      "id": 6,
+      "emriKlinikes": "aaaaaaaaaaaaaalo",
+      "kerkesa": "alo",
+      "date": "2022-12-01"
+    },
+    {
+      "id": 7,
+      "emriKlinikes": "ku jeni",
+      "kerkesa": "o bosa",
+      "date": "2022-12-15"
+    },
+    {
+      "id": 8,
+      "emriKlinikes": "SEFA",
+      "kerkesa": "DSFSDDFS",
+      "date": "2022-12-22"
+    }
+  ]
+}

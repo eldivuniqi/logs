@@ -1,0 +1,43 @@
+<div class="alert alert-success" *ngIf="successMessage !== ''">
+    {{successMessage}}
+</div>
+<div class="alert alert-danger" *ngIf="deleteMessage !== ''">
+    {{deleteMessage}}
+</div>
+<div class="alert alert-warning" *ngIf="editMessage!== ''">
+    {{editMessage}}
+</div>
+<form [formGroup]="addLog" (ngSubmit)="SaveData()">
+<table class="table table-borderless">
+    <tbody>
+        <div class="form-group col-sm-11 mb-2">
+            <label for="exampleFormControlInput1">Data</label>
+            <input type="date" class="form-control" type="date" id="date" name="date" formControlName="date" ngModel>
+
+        </div>
+        <tr>
+            <div class="form-group col-sm-11 mb-2">
+                <label for="exampleFormControlInput1">Emri i klinikes</label>
+                <input required minlength="3" type="email" class="form-control" id="emriKlinikes" formControlName="emriKlinikes" placeholder="Emri i klinikes">
+
+            </div>
+        </tr>
+        <tr>
+            <div class="form-group col-sm-11 mb-2">
+                <label for="exampleFormControlTextarea1">Kerkesa</label>
+                <textarea required minlength="3" class="form-control" id="kerkesa" formControlName="kerkesa" rows="5" placeholder="Shenim mbi kerkesen"></textarea>
+            </div>
+        </tr>
+        <tr>
+                <div class="row">
+                    <div class="form-group col-sm-7">
+                            Data Aktuale: {{date}}
+                    </div>
+                    <!-- <button type="submit" class="btn btn-secondary btn-rounded col-sm-3">{{ isEditing ? 'Ruaj' : 'Shto'}}</button> -->
+                    <button type="submit" [disabled]="addLog.invalid" class="btn btn-secondary btn-rounded col-sm-3">{{ isEditing ? 'Ruaj' : 'Shto'}}</button>
+                </div>
+        </tr>
+    </tbody>
+</table>
+</form>
+
